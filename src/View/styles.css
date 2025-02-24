@@ -1,0 +1,13 @@
+.activity-hbox {
+    -fx-pref-width: 10000;
+    -fx-pref-height: 10000;
+    -fx-padding: 5px;
+    -fx-background-color: #E8F5E9;
+    -fx-background-radius: 15px;
+}
+
+.hboxActivity-child {
+    -fx-pref-width: 10000;
+    -fx-pref-height: 10000;
+    -fx-padding: 2px;
+}

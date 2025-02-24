@@ -1,8 +1,9 @@
 package model;
 
+import java.io.Serializable;
 import java.time.ZonedDateTime;
 
-public class Activity {
+public class Activity implements Serializable{
 	private static int IDActivitycount = 0; 
 	private int IDActivity;
 	private String Title;
@@ -14,7 +15,7 @@ public class Activity {
 		
 	}
 	
-	public Activity(int IDActivity, String Title, String Description, ZonedDateTime StartDate, ZonedDateTime EndDate) {
+	public Activity( String Title, String Description, ZonedDateTime StartDate, ZonedDateTime EndDate) {
 		this.IDActivity = IDActivitycount;
 		IDActivitycount++;
 		this.Title = Title;
@@ -22,4 +23,54 @@ public class Activity {
 		this.StartDate = StartDate;
 		this.EndDate = EndDate;
 	}
+
+	public static int getIDActivitycount() {
+		return IDActivitycount;
+	}
+
+	public static void setIDActivitycount(int iDActivitycount) {
+		IDActivitycount = iDActivitycount;
+	}
+
+	public int getIDActivity() {
+		return IDActivity;
+	}
+
+	public void setIDActivity(int iDActivity) {
+		IDActivity = iDActivity;
+	}
+
+	public String getTitle() {
+		return Title;
+	}
+
+	public void setTitle(String title) {
+		Title = title;
+	}
+
+	public String getDescription() {
+		return Description;
+	}
+
+	public void setDescription(String description) {
+		Description = description;
+	}
+
+	public ZonedDateTime getStartDate() {
+		return StartDate;
+	}
+
+	public void setStartDate(ZonedDateTime startDate) {
+		StartDate = startDate;
+	}
+
+	public ZonedDateTime getEndDate() {
+		return EndDate;
+	}
+
+	public void setEndDate(ZonedDateTime endDate) {
+		EndDate = endDate;
+	}
+	
+	
 }
