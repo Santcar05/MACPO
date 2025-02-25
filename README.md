@@ -7,8 +7,10 @@ Características Principales
   Creación y Edición de Tareas:
   - Añade nuevas tareas con detalles como título, descripción, fecha de vencimiento y prioridad.
   - Edita o elimina tareas existentes según sea necesario.
+  - Añade nuevas Actividades y reuniones con detalles como título, descripción, fecha de inicio y fin.
+  - Edita o elimina  tareas existentes segun sea necesario.
   Organización por Prioridad:
-  - Clasifica las tareas en diferentes niveles de prioridad (alta, media, baja) para una mejor gestión.
+  - Clasifica las tareas en diferentes niveles de prioridad para una mejor gestión.
   Interfaz Gráfica Amigable:
   - Diseñada con JavaFX, ofrece una experiencia de usuario fluida y moderna.
   Almacenamiento Local:
